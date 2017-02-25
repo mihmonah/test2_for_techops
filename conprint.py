@@ -3,10 +3,10 @@ import prilines
 
 
 def find_log_print_info(host, mask, log, pas, id):
-"""
-Function from this module connects to server using paramiko
-SSHclient, opens log file and prints required
-"""
+    """
+    Function from this module connects to server using paramiko
+    SSHclient, opens log file and prints required
+    """
     # create paramiko SSH client
     client = paramiko.SSHClient()
     # add server key to known hosts

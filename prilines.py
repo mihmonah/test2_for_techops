@@ -1,11 +1,11 @@
 
 
 def find_and_print_lines(opened_file, numb_id):
-"""
-Function from this module print first line of file which contains number id
- 'numb_id' and 100 lines after and before if it possible. If number id doesn't
- presented in this file, function prints message about it.
-"""
+    """
+    Function from this module print first line of file which contains number id
+    'numb_id' and 100 lines after and before if it possible. If number id
+    doesn't presented in this file, function prints message about it.
+    """
     # list with lines before line with numb_id
     prev_lines = []
     # variable for control of printing 100 lines after, also flag

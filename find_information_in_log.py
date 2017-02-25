@@ -12,4 +12,4 @@ if __name__ == "__main__":
         pas = autorize.auth_data(host).split('/')[1]
         conprint.find_log_print_info(host, mask, login, pas, numb_id)
     else:
-        print("Wrong number of arguments! Please put your arguments in format: ip log_mask num
+        print("Wrong number of arguments! Dataformat: ip log_mask numid")
